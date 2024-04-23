@@ -1,12 +1,15 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import Nav from './componants/Nav'
 
 function App() {
   
   return (
     <>
     
-      <h1 className='text-6xl text-purple-600'>Vite + React</h1>
+      <Nav></Nav>
      
+      <Outlet></Outlet>
     </>
   )
 }
